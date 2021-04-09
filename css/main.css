@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+header{
+    display: flex;
+}
+.logo{
+    padding-right: 200px;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px 40px 10px 0px;
+    color: #000;
+    size: 14px;
+    font-weight: 700;
+
+}
+a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+ a.active {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.language{
+    display: flex;
+    padding-left: 65px;
+    padding-right: 65px;
+    
+}
+.language p{
+    font-family: Quicksand;
+    size: 14px;
+    font-weight: 700;
+}
+.EN{
+    padding-right: 20px;
+}
+.offer{
+display: flex;
+justify-content: space-between;
+padding-bottom: 100px;
+}
+h1{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.colortext{
+    background: #F5FFD7;
+}
+.cta{
+width: 233px;
+height: 58px;
+background: #000;
+color: #fff;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+margin: 0 0 20px 100px;
+box-shadow:#fff 5px 5px, #000 7px 7px;
+}
+.offer h4{
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+padding-top: 70px;
+padding-bottom: 20px;
+}
+.offer .plus{
+    padding-left: 30px;
+}
+p{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.offer-img{
+    width: 68%;
+    box-shadow:#fff 7px 7px, #000 9px 9px;
+}
+.wrapper1{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery{
+    width: 35%;
+    padding-right: 40px;
+}
+.centr{
+    padding-right: 40px;
+}
+.centr p{
+    padding-bottom: 30px;
+}
+h2{
+    font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+padding: 30px 0;
+}
+button{
+width: 233px;
+height: 58px;
+background: #000;
+color: #fff;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+box-shadow:#fff 5px 5px, #000 7px 7px;
+}
+.accent{
+    background: #FFD7F6;
+    width: 40%;
+}
+.accent h4{
+    padding: 30px;
+}
+.accent p{
+padding: 0 30px 30px 30px;
+}
+.wrapper2{
+    display: flex;
+    justify-content: flex-start;
+}
+.right{
+width: 35%;
+}
+
+.right p{
+    padding: 0 40px;
+}
+
+h3{
+    font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.catalog{
+    margin-bottom: 50px;
+}
+.grid{
+    display: flex;
+}
+.menu{
+    display: flex;
+    background: #EEE;
+    width: 915px;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.menu h1{
+    display: flex;
+    padding-right: 200px;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.sort{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+.sort p{
+    font-family: Quicksand;
+    size: 14px;
+    font-weight: 700;
+    padding-right: 40px;
+}
+
+.column h4{
+    padding: 20px 0;
+}
+.column p{
+    padding-bottom: 15px;
+}
+.column .plus{
+    font-family: Quicksand;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+text-transform: uppercase;
+}
+.column img{
+    width: 80%;
+}
